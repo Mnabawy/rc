@@ -5,7 +5,6 @@ import ExpenseItem from "../Expenses/ExpenseItem";
 import "./Expenses.css";
 
 function Expenses(props) {
-  console.log(props);
   return (
     <Card className="expenses">
       {props.items.map(expense => (
